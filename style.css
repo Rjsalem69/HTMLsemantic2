@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-items {
+    height: 80px;
+    width: 100%;
+    background-color: navy;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5%; 
+    border-image: fill; 
+} 
+.nav-items img{
+    vertical-align: middle;
+    box-sizing: border-box;
+    height: 60px;
+    width: 60px;
+    aspect-ratio: 60/60;
+}
+.nav-items h1{
+    color: white;
+}
+.contact p img{
+    height: 60px;
+    width: 60px;
+    aspect-ratio: 60/60;
+}
+.nav-items ul{
+    list-style: none;
+    display: flex;
+}
+.nav-items ul li{
+    padding: 10px 30px;
+    position: relative;
+}
+.nav-items ul li a{
+   text-decoration: none;
+   font-size: 20px;
+   transition: all 0.3s;
+}
+.nav-items ul li a:hover{
+    color: var(--color--navy);
+}
+.dropdown_menu{
+    display: none;
+}
+.nav-items ul li:hover .dropdown_menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: var(--color--navy);
+}
+.dropdown_menu ul {
+    display: block;
+    margin: 10px;
+}
+.dropdown_menu ul li a{
+background-color: navy;
+}
+.container{
+    display: inline-table;
+    align-items: center;
+    margin-bottom: 1rem!important;
+    margin-top: 1rem!important;
+    margin-right: 5000;
+    height: 100;
+    width: 100; 
+}
+.container .img1{
+    display: flex;
+    align-items: center;
+    justify-content: first baseline;
+    margin-bottom: 1rem!important;
+    margin-top: 1rem!important;
+    height: 100;
+    width: 100;
+}
+
+.container .img2{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin-bottom: 1rem!important;
+    margin-top: 1rem!important;
+    height: 100;
+    width: 100;
+}
+.container .img3{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin-top: 1rem!important;
+    height: 100;
+    width: 100;
+}
+.container .img4{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin-bottom: 1rem!important;
+    margin-top: 1rem!important;
+    height: 100;
+    width: 100;
+}
+.container .text{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin-bottom: 1rem!important;
+    margin-top: 1rem!important;
+    height: 50;
+    width: 50;
+}
+.text{
+    text-align: justify;
+}
+.milestones{
+    text-align: justify;
+}
+.text1{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin-bottom: 1rem!important;
+    margin-top: 1rem!important;
+    height: 100;
+    width: 100;
+}
+.text1{
+    text-align: justify;
+}
+.Logo{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin-bottom: 1rem!important;
+    margin-top: 1rem!important;
+    height: 100;
+    width: 100;
+}
+.Logo{
+    text-align: justify;
+}
+.Courses{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin-bottom: 1rem!important;
+    margin-top: 1rem!important;
+    height: 100;
+    width: 100;
+}
+.Courses{
+    text-align: justify;
+}
+.Services{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin-bottom: 1rem!important;
+    margin-top: 1rem!important;
+    height: 100;
+    width: 100;
+}
+.Services{
+    text-align: justify;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin-bottom: 1rem!important;
+    margin-top: 1rem!important;
+    height: 100;
+    width: 100;
+}
+.contact{
+    text-align: justify;
+}
+.img1{
+    margin-left: 20%;
+    margin-right: 10%;
+}
+.img2{
+    margin-left: 20%;
+    margin-right: 10%;
+}
+.img3{
+    margin-left: 20%;
+    margin-right: 10%;
+}
+.img4{
+    margin-left: 20%;
+    margin-right: 10%;
+}
+.text{
+    margin-left: 20%;
+    margin-right: 10%;
+}
+.text1{
+    margin-left: 20%;
+    margin-right: 10%;
+}
+.Logo{
+    margin-left: 20%;
+    margin-right: 10%;
+}
+.Courses{
+    margin-left: 20%;
+    margin-right: 10%;
+}
+.Services{
+    margin-left: 20%;
+    margin-right: 10%;
+}
+.contact{
+    margin-left: 20%;
+    margin-right: 10%;
+}
+a{ 
+    color: white; 
+}
+    
+
